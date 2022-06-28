@@ -1,0 +1,373 @@
+/* componentes generales */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    grid-template-areas: "nav nav"
+    "lineaprincipal lineaprincipal"
+        "img1 img2"
+        "img3 img4"
+        "parrafo parrafo"
+        "footer footer";
+}
+div #lineaprincipal{
+    grid-area: lineaprincipal;
+}
+nav {
+    grid-area: nav;
+}
+
+article #img1 {
+    grid-area: img1;
+}
+
+article #img2 {
+    grid-area: img2;
+}
+
+section #img3 {
+    grid-area: img3;
+}
+
+section #img4 {
+    grid-area: img4;
+}
+
+section #parrafo {
+    grid-area: parrafo;
+
+}
+
+#parrafo {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+
+/*componentes de navegacion*/
+.logonav {
+    width: 40%;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav a:hover {
+    color: green;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.20em;
+    font-size: 1.5rem;
+}
+
+
+/*componentes de la pagina*/
+
+.imgsection {
+    width: 80%;
+    margin-left: 60px;
+}
+
+.imgsection--h2 {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.05em;
+    margin-top: 30px;
+}
+
+.imgsection--h2_text {
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 1.5rem;
+    margin: 10px;
+    
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+.sectionp {
+    text-align: center;
+    padding: 50px;
+    font-size: 3rem;
+
+}
+/*------historia-----*/
+
+.historigrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+}
+.historigrid--p{
+    text-align: justify;
+    font-size: 2rem;
+    margin: 100px
+}
+.imghistoria2{
+    width: 50%;
+}
+/*----------- funktion-one -----*/
+
+.artgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.artgrid_p {
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.section__art--p{
+    text-align: justify;
+    margin: 30px 15vh 30px 15vh;
+    font-size: 2rem;
+}
+
+.linea {
+    border: 1em;
+    border-radius: 1%;
+    background-color: white;
+    color: white;
+    margin-left: 20vh;
+    margin-right: 20vh;
+}
+
+.funktionh1 {
+    margin-top: 5vh;
+    margin-left: 105px;
+    letter-spacing: 0.1em;
+    font-size: 5rem;
+}
+
+
+
+/*Componentes del footer*/
+
+.logo-foot {
+    width: 10%;
+    margin-left: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    font-size: 2rem;
+    margin-right: 60px;
+}
+
+footer div a {
+    margin-right: 20%
+}
+
+.divfoot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+}
+
+
+
+/*--------@MEDIA Responsive-----------*/
+
+
+
+@media screen and (max-width: 768px) {
+
+    #main {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        grid-template-areas: "nav"
+        "lineaprincipal"
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "parrafo"
+            "footer";
+    }
+
+    #parrafo {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    /*componente navegacion a 768px*/
+
+    .logonav {
+        width: 30%;
+        margin-left: 42%;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    nav ul {
+        justify-content: center;
+        align-items: center;
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+
+    nav ul li a {
+        font-size: 1.2rem;
+        letter-spacing: normal;
+    }
+
+
+
+    .imgsection {
+        width: 90%;
+        margin-left: 30px;
+    }
+
+    .imgsection--h2 {
+        text-align: center;
+        font-size: 1.9rem;
+        margin: 20px;
+    }
+
+    .imgsection--h2_text {
+        text-align: justify;
+        font-size: 1.3rem;
+        margin: 10px;
+    }
+
+    /*componente pagina*/
+
+
+    .sectionp {
+        text-align: center;
+        padding: 30px;
+        font-size: 1.5rem;
+    }
+
+    /*-----historia 768px-------*/
+
+    .historigrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .historigrid--p{
+        text-align: justify;
+        font-size: 1.5rem;
+        margin: 30px
+    }
+
+    .imghistoria1{
+        width: 90%;
+    }
+    .imghistoria2{
+        width: 90%;
+    }
+
+
+
+
+    /*----------- funktion-one ----- 768px*/
+
+
+    .imgfunk{
+        width: 65vh;
+    }
+    .artgrid{
+        grid-template-columns: 1fr;
+        margin-left: 15px;
+    }
+    .artgrid_p {
+        margin-top: 20px;
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+    .section__art--p{
+        text-align: justify;
+        margin: 30px 15vh 30px 15vh;
+        font-size: 1.5rem;
+}
+    .funktionh1 {
+        text-align: center;
+        margin-right: 95px;
+        font-size: 3rem;
+    }
+
+
+    /*componente footer 768*/
+
+    .logo-foot {
+        width: 20%;
+        margin-right: 10px;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+    }
+
+    footer p {
+        font-size: 1.2rem;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+
+    footer div a {
+        margin-right: 20%
+    }
+
+}
