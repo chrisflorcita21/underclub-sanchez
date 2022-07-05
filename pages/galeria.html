@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>galeria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css" />
   </head>
 
@@ -21,6 +22,37 @@
         <li><a href="../pages/contacto.html">Contacto</a></li>
       </ul>
     </nav>
+
+    <div>
+      <div class="linea">esta es una linea divisoria</div>
+      <h1 class="galeriah1">Galeria</h1>
+    </div>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active justify-content-center d-flex">
+          <img src="../assets/img/galeria3.jpg" class="d-block w-75" alt="dj tocando">
+        </div>
+        <div class="carousel-item justify-content-center align-items-center d-flex"">
+          <img src="../assets/img/galeria2.jpg" class="d-block w-75" alt="fondo underclub">
+        </div>
+        <div class="carousel-item justify-content-center d-flex"">
+          <img src="../assets/img/galeria1.jpg" class="d-block w-75" alt="underclub">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="vidgaleria">
+      <video src="../assets/vid/nuevo1.mp4" preload="auto" muted loop controls class="vidwidth"></video>
+    </div>
 
     <!--PERMISO-->
 
@@ -56,5 +88,6 @@
         /></a>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>

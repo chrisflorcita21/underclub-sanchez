@@ -197,6 +197,25 @@ body {
     font-size: 5rem;
 }
 
+/*----galeria----*/
+
+.vidgaleria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vidwidth{
+    width: 75%;
+}
+
+.galeriah1{
+    margin-bottom: 20px;
+    margin-top: 5vh;
+    margin-left: 105px;
+    letter-spacing: 0.1em;
+    font-size: 5rem;
+}
 
 
 /*Componentes del footer*/
@@ -275,6 +294,7 @@ footer div a {
         align-items: center;
         margin-left: 80px;
         margin-bottom: 20px;
+        margin-right: 10px;
     }
 
     nav ul li a {
@@ -326,11 +346,10 @@ footer div a {
     .imghistoria1{
         width: 90%;
     }
+
     .imghistoria2{
         width: 90%;
     }
-
-
 
 
     /*----------- funktion-one ----- 768px*/
@@ -339,26 +358,40 @@ footer div a {
     .imgfunk{
         width: 65vh;
     }
+
     .artgrid{
         grid-template-columns: 1fr;
         margin-left: 15px;
     }
+
     .artgrid_p {
         margin-top: 20px;
         font-size: 1.5rem;
         text-align: justify;
     }
+
     .section__art--p{
         text-align: justify;
         margin: 30px 15vh 30px 15vh;
         font-size: 1.5rem;
 }
+
     .funktionh1 {
         text-align: center;
-        margin-right: 95px;
+        margin-right: 100px;
         font-size: 3rem;
     }
 
+    /*-----galeria----*/
+
+    .galeriah1{
+        text-align: center;
+        margin-right: 95px;
+    }
+
+    .vidwidth{
+        width: 90%;
+}
 
     /*componente footer 768*/
 
