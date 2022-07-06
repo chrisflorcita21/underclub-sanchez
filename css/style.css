@@ -62,10 +62,10 @@ footer {
 
 
 /*componentes de navegacion*/
+
 .logonav {
     width: 40%;
 }
-
 
 nav {
     display: flex;
@@ -255,7 +255,7 @@ footer div a {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
 
     #main {
         grid-template-columns: 1fr;
