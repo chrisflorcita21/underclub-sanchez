@@ -88,11 +88,11 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 nav ul li a:hover {
-    box-shadow: inset 125px 0 0 0 white;
+    box-shadow: inset 140px 0 0 0 white;
     color: black;
   }
 
@@ -104,14 +104,15 @@ nav ul li a {
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     text-decoration: none;
     letter-spacing: 0.20em;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   
 
 
 
 
-/*componentes de la pagina*/
+/*----componentes de la pagina------*/
+
 
 .imgsection1 {
     width: 80%;
@@ -148,7 +149,12 @@ body {
     font-size: 3rem;
 
 }
+
+
+
 /*------historia-----*/
+
+
 
 .historigrid{
     display: grid;
@@ -166,7 +172,18 @@ body {
 .imghistoria2{
     width: 50%;
 }
+
+.historiah1{
+    margin-top: 5vh;
+    margin-left: 20vh;
+    letter-spacing: 0.1em;
+    font-size: 5rem;
+}
+
+
 /*----------- funktion-one -----*/
+
+
 
 .artgrid {
     display: grid;
@@ -201,12 +218,18 @@ body {
 
 .funktionh1 {
     margin-top: 5vh;
-    margin-left: 105px;
+    margin-left: 20vh;
     letter-spacing: 0.1em;
     font-size: 5rem;
 }
 
+
+
+
 /*----galeria----*/
+
+
+
 
 .vidgaleria{
     display: flex;
@@ -221,13 +244,15 @@ body {
 .galeriah1{
     margin-bottom: 20px;
     margin-top: 5vh;
-    margin-left: 105px;
+    margin-left: 20vh;
     letter-spacing: 0.1em;
     font-size: 5rem;
 }
 
 
 /*Componentes del footer*/
+
+
 
 .logo-foot {
     width: 10%;
@@ -263,8 +288,154 @@ footer div a {
 /*--------@MEDIA Responsive-----------*/
 
 
+@media screen and (max-width: 992px) {
 
-@media screen and (max-width: 576px) {
+    #main {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        grid-template-areas: "nav"
+        "lineaprincipal"
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "parrafo"
+            "footer";
+    }
+
+    #parrafo {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    /*componente navegacion a 992px*/
+
+    .logonav {
+        width: 40%;
+        margin-left: 11vh;
+    }
+   
+    nav ul li a {
+        font-size: 1.6rem;
+        letter-spacing: normal;
+    }
+
+     /*----componente pagina----*/
+
+     .imgsection1 {
+        width: 90%;
+        margin-left: 40px;
+    }
+    .imgsection2 {
+        width: 90%;
+        margin-left: 40px;
+        
+    }
+    .imgsection--h2 {
+        text-align: center;
+        font-size: 3rem;
+        margin: 20px;
+    }
+
+    .imgsection--h2_text {
+        text-align: justify;
+        font-size: 1.5rem;
+        margin: 20px;
+    }
+
+    .sectionp {
+        text-align: center;
+        padding: 40px;
+        font-size: 2rem;
+    }
+     /*-----historia 992px-------*/
+
+     .historigrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .historigrid--p{
+        text-align: justify;
+        font-size: 1.8rem;
+        margin: 30px
+    }
+
+    .imghistoria1{
+        width: 90%;
+    }
+
+    .imghistoria2{
+        width: 90%;
+    }
+    .historiah1{
+        text-align: center;
+        margin-right: 21vh;
+        margin-bottom: 10vh;
+    }
+
+    /*-----galeria----*/
+
+    .galeriah1{
+        text-align: center;
+        margin-right: 20vh;
+        margin-bottom: 10vh;
+    }
+
+    .vidwidth{
+        width: 90%;
+    
+}
+/*-----funktion one 992----*/
+
+.imgfunk {
+    width: 98%;
+    margin-left: 30px;
+}
+
+.artgrid {
+    grid-template-columns: 1fr;
+    margin-left: 15px;
+}
+
+.artgrid_p {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.section__art--p {
+    text-align: justify;
+    margin: 30px;
+    font-size: 1.5rem;
+}
+
+.funktionh1 {
+    text-align: center;
+    margin-right: 20vh
+}
+/*componente footer 768*/
+
+    .logo-foot {
+    width: 20%;
+    margin-right: 10px;
+}
+
+
+    footer p {
+    font-size: 1.5rem;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+    footer div a {
+    margin-right: 20%
+}
+
+}
+
+@media screen and (max-width: 768px) {
 
     #main {
         grid-template-columns: 1fr;
@@ -288,33 +459,181 @@ footer div a {
 
     .logonav {
         width: 30%;
-        margin-left: 43.5%;
+        margin-left: 22vh;
     }
 
     nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 12vh;
+    }
+    
+    
+    nav ul li a{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    
+    /*----componente pagina----*/
 
+    .imgsection1 {
+        width: 90%;
+        margin-left: 30px;
+    }
+    .imgsection2 {
+        width: 90%;
+        margin-left: 35px;
+        
+    }
+    .imgsection--h2 {
+        text-align: center;
+        font-size: 3rem;
+        margin: 3vh;
     }
 
-    nav ul {
+    .imgsection--h2_text {
+        text-align: justify;
+        font-size: 1.5rem;
+        margin: 3vh;
+    }
+
+    .sectionp {
+        text-align: center;
+        padding: 40px;
+        font-size: 2rem;
+    }
+     /*-----historia 768px-------*/
+
+    .historigrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .historigrid--p{
+        text-align: justify;
+        font-size: 1.5rem;
+        margin: 30px
+    }
+
+    .imghistoria1{
+        width: 90%;
+    }
+
+    .imghistoria2{
+        width: 90%;
+    }
+    .historiah1{
+        text-align: center;
+        margin-right: 21vh;
+        margin-bottom: 10vh;
+    }
+      /*-----galeria----*/
+
+      .galeriah1{
+        text-align: center;
+        margin-right: 20vh;
+        margin-bottom: 10vh;
+    }
+
+      .vidwidth{
+        width: 90%;
+    
+}
+
+/*-----funktion one 768----*/
+
+.imgfunk {
+    width: 98%;
+    margin-left: 30px;
+}
+
+.artgrid {
+    grid-template-columns: 1fr;
+    margin-left: 15px;
+}
+
+.artgrid_p {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.section__art--p {
+    text-align: justify;
+    margin: 30px;
+    font-size: 1.5rem;
+}
+
+.funktionh1 {
+    text-align: center;
+    margin-right: 20vh
+}
+
+/*componente footer 768*/
+
+
+
+footer {
+    flex-direction: column-reverse;
+}
+
+footer p {
+    font-size: 1.5rem;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+footer div a {
+    margin-right: 20%
+}
+
+}
+
+@media screen and (max-width: 576px) {
+
+    #main {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        grid-template-areas: "nav"
+        "lineaprincipal"
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "parrafo"
+            "footer";
+    }
+
+    #parrafo {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    /*componente navegacion a 576px*/
+
+    .logonav {
+        width: 30%;
+        margin-left: 19.5vh;
+    }
+
+    nav {
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 70px;
-        margin-right: 10px;
+        margin-left: 9vh;
     }
-
-    nav ul li a {
-        font-size: 1.2rem;
-        letter-spacing: normal;
+    
+    
+    nav ul li a{
+        text-align: center;
     }
-
 
 
     
 
-    /*componente pagina*/
+    /*----componente pagina----*/
 
     .imgsection1 {
         width: 90%;
@@ -363,7 +682,10 @@ footer div a {
     .imghistoria2{
         width: 90%;
     }
-
+    .historiah1{
+        text-align: center;
+        margin-right: 20vh;
+    }
 
     /*----------- funktion-one ----- 576px*/
 
@@ -401,7 +723,7 @@ footer div a {
 
     .galeriah1{
         text-align: center;
-        margin-right: 95px;
+        margin-right: 20vh;
     }
 
     .vidwidth{
