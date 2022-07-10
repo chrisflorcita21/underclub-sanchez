@@ -117,8 +117,8 @@ body {
   border-radius: 1%;
   background-color: white;
   color: white;
-  margin-left: 20vh;
-  margin-right: 20vh;
+  margin-left: 15vh;
+  margin-right: 15vh;
   margin-bottom: 30px; }
 
 .funktionh1 {
@@ -299,12 +299,12 @@ footer {
   /*componente navegacion a 768px*/
   .logonav {
     width: 30%;
-    margin-left: 22vh; }
+    margin-left: 14rem; }
   nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 12vh; }
+    margin-left: 8rem; }
     nav ul li a {
       text-align: center;
       font-size: 1.3rem; }
@@ -390,12 +390,12 @@ footer {
   /*componente navegacion a 576px*/
   .logonav {
     width: 30%;
-    margin-left: 18vh; }
+    margin-left: 11rem; }
   nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 9vh; }
+    margin-left: 8rem; }
     nav ul li a {
       text-align: center; }
   /*----componente pagina----*/
