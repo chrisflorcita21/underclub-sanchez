@@ -1,0 +1,137 @@
+/*----componentes de la pagina------*/
+
+
+.imgsection1 {
+    width: 80%;
+    margin-left: 100px;
+}
+.imgsection2 {
+    width: 70%;
+    margin-left: 150px;
+}
+
+.imgsection--h2 {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.05em;
+    margin-top: 30px;
+}
+
+.imgsection--h2_text {
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 1.5rem;
+    margin: 10px 100px 10px 100px;
+    
+}
+
+body {
+    color: $colorprimario;
+    background-color: $colorsecundario;
+}
+
+.sectionp {
+    text-align: center;
+    padding: 50px;
+    font-size: 3rem;
+
+}
+
+
+
+/*------historia-----*/
+
+
+
+.historigrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+}
+.historigrid--p{
+    text-align: justify;
+    font-size: 2rem;
+    margin: 100px
+}
+.imghistoria2{
+    width: 50%;
+}
+
+.historiah1{
+    margin-top: 5vh;
+    margin-left: 20vh;
+    letter-spacing: 0.1em;
+    font-size: 5rem;
+}
+
+
+/*----------- funktion-one -----*/
+
+
+
+.artgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.artgrid_p {
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.section__art--p{
+    text-align: justify;
+    margin: 30px 15vh 30px 15vh;
+    font-size: 2rem;
+}
+
+.linea {
+    border: 1em;
+    border-radius: 1%;
+    background-color: $colorprimario;
+    color: $colorprimario;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-bottom: 30px;
+}
+
+.funktionh1 {
+    margin-top: 5vh;
+    margin-left: 20vh;
+    letter-spacing: 0.1em;
+    font-size: 5rem;
+}
+
+
+
+
+/*----galeria----*/
+
+
+
+
+.vidgaleria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vidwidth{
+    width: 75%;
+}
+
+.galeriah1{
+    margin-bottom: 20px;
+    margin-top: 5vh;
+    margin-left: 20vh;
+    letter-spacing: 0.1em;
+    font-size: 5rem;
+}

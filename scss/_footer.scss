@@ -1,0 +1,32 @@
+/*Componentes del footer*/
+
+
+
+.logo-foot {
+    width: 10%;
+    margin-left: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(170,170,170);
+    background: linear-gradient(0deg, rgba(170,170,170,1) 0%, rgba(0,0,0,1) 25%);
+    p{
+        font-size: 2rem;
+        margin-right: 60px;
+
+    }
+    div a{
+        margin-right: 20%
+    }
+}
+
+
+.divfoot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+}
