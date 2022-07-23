@@ -129,12 +129,8 @@ body {
   font-size: 2rem; }
 
 .linea {
-  border: 1em;
-  border-radius: 1%;
-  background-color: white;
-  color: white;
-  margin-left: 15vh;
-  margin-right: 15vh;
+  margin-left: 18vh;
+  margin-right: 18vh;
   margin-bottom: 30px; }
 
 .funktionh1 {
@@ -181,7 +177,6 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-right: 10%;
   margin-top: 20px; }
   nav ul {
     display: flex;
@@ -417,14 +412,15 @@ footer {
   /*componente navegacion a 576px*/
   .logonav {
     width: 30%;
-    margin-left: 11rem; }
+    margin-left: 21%; }
   nav {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-left: 8rem; }
-    nav ul li a {
-      text-align: center; }
+    align-items: center; }
+    nav ul {
+      margin-right: 13%; }
+      nav ul li a {
+        text-align: center; }
   /*----componente pagina----*/
   .imgsection1 {
     width: 90%;
