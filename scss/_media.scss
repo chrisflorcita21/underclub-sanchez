@@ -1,6 +1,5 @@
 /*--------@MEDIA Responsive-----------*/
 
-
 @media screen and (max-width: 992px) {
 
     #main {
@@ -24,8 +23,7 @@
     /*componente navegacion a 992px*/
 
     .logonav {
-        width: 40%;
-        margin-left: 11vh;
+        margin-left: 15vh;
     }
    
     nav ul li a {
@@ -173,15 +171,11 @@
     /*componente navegacion a 768px*/
 
     .logonav {
-        width: 30%;
         margin-left: 14rem;
     }
 
     nav {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-left: 8rem;
+
         ul{ 
             li{
                 a{
@@ -331,20 +325,20 @@ footer {
     /*componente navegacion a 576px*/
 
     .logonav {
-        width: 30%;
-        margin-left: 21%;
+        
+        margin-left: 11rem;
     }
 
     nav {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         
         ul{ 
-            margin-right: 13%;
             li{ 
+                padding: 1em;
+                margin-left: 10vh;
                 a{ 
                 text-align: center;
+                font-size: 1.5rem;
+                
 
         }
     }
@@ -405,7 +399,6 @@ footer {
     .historiah1{
         text-align: center;
         margin-right: 20vh;
-        font-size: $font-primario;
     }
 
     /*----------- funktion-one ----- 576px*/
@@ -437,7 +430,7 @@ footer {
     .funktionh1 {
         text-align: center;
         margin-right: 100px;
-        font-size: $font-primario;
+        font-size: 3rem;
     }
 
     /*-----galeria----*/
@@ -445,7 +438,6 @@ footer {
     .galeriah1{
         text-align: center;
         margin-right: 20vh;
-        font-size: $font-primario
     }
 
     .vidwidth{
@@ -472,12 +464,5 @@ footer {
         }
     }
 
-    /*---Contacto-----*/
-
-        .contactoh1{
-            @include titulo-importante;
-            text-align: center;
-            font-size: $font-primario;
-}
 
 }

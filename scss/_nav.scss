@@ -3,24 +3,9 @@
 .logonav {
     width: 40%;
 }
-.navmb{
-    margin-bottom: 30px;
-}
+
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-    
-    ul{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        list-style: none;
-        margin-top: 10px;
-
-    }
     
     ul{
         
@@ -34,9 +19,9 @@ nav {
                 transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
                 text-decoration: none;
                 letter-spacing: 0.20em;
-                font-size: $font-nav;
+                font-size: 1.6rem;
                 &:hover{
-                    box-shadow: inset 145px 0 0 0 $colorprimario;
+                    box-shadow: inset 140px 0 0 0 $colorprimario;
                     color: $colorsecundario;
     
                     }

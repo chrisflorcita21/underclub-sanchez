@@ -170,34 +170,20 @@ body {
 .logonav {
   width: 40%; }
 
-.navmb {
-  margin-bottom: 30px; }
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 20px; }
-  nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style: none;
-    margin-top: 10px; }
-  nav ul li {
-    margin-right: 40px; }
-    nav ul li a {
-      box-shadow: inset 0 0 0 0 white;
-      color: white;
-      margin: 0 -.25rem;
-      padding: 0 .25rem;
-      transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-      text-decoration: none;
-      letter-spacing: 0.20em;
-      font-size: 1.8rem; }
-      nav ul li a:hover {
-        box-shadow: inset 145px 0 0 0 white;
-        color: black; }
+nav ul li {
+  margin-right: 40px; }
+  nav ul li a {
+    box-shadow: inset 0 0 0 0 white;
+    color: white;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    text-decoration: none;
+    letter-spacing: 0.20em;
+    font-size: 1.6rem; }
+    nav ul li a:hover {
+      box-shadow: inset 140px 0 0 0 white;
+      color: black; }
 
 /*Componentes del footer*/
 .logo-foot {
@@ -233,8 +219,7 @@ footer {
     grid-column-end: 2; }
   /*componente navegacion a 992px*/
   .logonav {
-    width: 40%;
-    margin-left: 11vh; }
+    margin-left: 15vh; }
   nav ul li a {
     font-size: 1.6rem;
     letter-spacing: normal; }
@@ -320,16 +305,10 @@ footer {
     grid-column-end: 2; }
   /*componente navegacion a 768px*/
   .logonav {
-    width: 30%;
     margin-left: 14rem; }
-  nav {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 8rem; }
-    nav ul li a {
-      text-align: center;
-      font-size: 1.3rem; }
+  nav ul li a {
+    text-align: center;
+    font-size: 1.3rem; }
   /*----componente pagina----*/
   .imgsection1 {
     width: 90%;
@@ -411,16 +390,13 @@ footer {
     grid-column-end: 2; }
   /*componente navegacion a 576px*/
   .logonav {
-    width: 30%;
-    margin-left: 21%; }
-  nav {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    nav ul {
-      margin-right: 13%; }
-      nav ul li a {
-        text-align: center; }
+    margin-left: 11rem; }
+  nav ul li {
+    padding: 1em;
+    margin-left: 10vh; }
+    nav ul li a {
+      text-align: center;
+      font-size: 1.5rem; }
   /*----componente pagina----*/
   .imgsection1 {
     width: 90%;
@@ -454,8 +430,7 @@ footer {
     width: 90%; }
   .historiah1 {
     text-align: center;
-    margin-right: 20vh;
-    font-size: 3rem; }
+    margin-right: 20vh; }
   /*----------- funktion-one ----- 576px*/
   .imgfunk {
     width: 98%;
@@ -479,8 +454,7 @@ footer {
   /*-----galeria----*/
   .galeriah1, .historiah1, .funktionh1, .contactoh1 {
     text-align: center;
-    margin-right: 20vh;
-    font-size: 3rem; }
+    margin-right: 20vh; }
   .vidwidth {
     width: 90%; }
   /*componente footer 576*/
@@ -494,12 +468,4 @@ footer {
       margin-left: 70px;
       margin-top: 20px; }
     footer div a {
-      margin-right: 20%; }
-  /*---Contacto-----*/
-  .contactoh1 {
-    color: white;
-    font-size: 5rem;
-    font-style: italic;
-    border: 1px;
-    text-align: center;
-    font-size: 3rem; } }
+      margin-right: 20%; } }
