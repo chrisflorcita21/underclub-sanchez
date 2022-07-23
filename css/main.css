@@ -41,7 +41,19 @@ section #parrafo {
 footer {
   grid-area: footer; }
 
-/*----componentes de la pagina------*/
+/* colores */
+/* fuentes */
+/* maps */
+.facebook {
+  color: blue; }
+
+.instagram {
+  color: violet; }
+
+.youtube {
+  color: red; }
+
+/*----COMPONENTES INDEX------*/
 .imgsection1 {
   width: 80%;
   margin-left: 100px; }
@@ -71,7 +83,7 @@ body {
   padding: 50px;
   font-size: 3rem; }
 
-/*------historia-----*/
+/*------HISTORIA-----*/
 .historigrid {
   display: grid;
   grid-template-columns: 1fr;
@@ -92,12 +104,12 @@ body {
   width: 50%; }
 
 .historiah1 {
-  margin-top: 5vh;
-  margin-left: 20vh;
-  letter-spacing: 0.1em;
-  font-size: 5rem; }
+  color: white;
+  font-size: 5rem;
+  font-style: italic;
+  border: 1px; }
 
-/*----------- funktion-one -----*/
+/*-----------FUNKTION-ONE-----*/
 .artgrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -126,12 +138,13 @@ body {
   margin-bottom: 30px; }
 
 .funktionh1 {
-  margin-top: 5vh;
-  margin-left: 20vh;
-  letter-spacing: 0.1em;
-  font-size: 5rem; }
+  color: white;
+  font-size: 5rem;
+  font-style: italic;
+  border: 1px; }
 
-/*----galeria----*/
+/* 
+----GALERIA---- */
 .vidgaleria {
   display: flex;
   justify-content: center;
@@ -140,12 +153,22 @@ body {
 .vidwidth {
   width: 75%; }
 
-.galeriah1 {
+.galeriah1, .historiah1, .funktionh1, .contactoh1 {
+  color: white;
+  font-size: 5rem;
+  font-style: italic;
+  border: 1px;
   margin-bottom: 20px;
   margin-top: 5vh;
-  margin-left: 20vh;
-  letter-spacing: 0.1em;
-  font-size: 5rem; }
+  margin-left: 19vh;
+  letter-spacing: 0.1em; }
+
+/*---Contacto-----*/
+.contactoh1 {
+  color: white;
+  font-size: 5rem;
+  font-style: italic;
+  border: 1px; }
 
 /*componentes de navegacion*/
 .logonav {
@@ -176,9 +199,9 @@ nav {
       transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
       text-decoration: none;
       letter-spacing: 0.20em;
-      font-size: 1.6rem; }
+      font-size: 1.8rem; }
       nav ul li a:hover {
-        box-shadow: inset 140px 0 0 0 white;
+        box-shadow: inset 145px 0 0 0 white;
         color: black; }
 
 /*Componentes del footer*/
@@ -256,7 +279,7 @@ footer {
     margin-right: 21vh;
     margin-bottom: 10vh; }
   /*-----galeria----*/
-  .galeriah1 {
+  .galeriah1, .historiah1, .funktionh1, .contactoh1 {
     text-align: center;
     margin-right: 20vh;
     margin-bottom: 10vh; }
@@ -348,7 +371,7 @@ footer {
     margin-right: 21vh;
     margin-bottom: 10vh; }
   /*-----galeria----*/
-  .galeriah1 {
+  .galeriah1, .historiah1, .funktionh1, .contactoh1 {
     text-align: center;
     margin-right: 20vh;
     margin-bottom: 10vh; }
@@ -435,7 +458,8 @@ footer {
     width: 90%; }
   .historiah1 {
     text-align: center;
-    margin-right: 20vh; }
+    margin-right: 20vh;
+    font-size: 3rem; }
   /*----------- funktion-one ----- 576px*/
   .imgfunk {
     width: 98%;
@@ -457,9 +481,10 @@ footer {
     margin-right: 100px;
     font-size: 3rem; }
   /*-----galeria----*/
-  .galeriah1 {
+  .galeriah1, .historiah1, .funktionh1, .contactoh1 {
     text-align: center;
-    margin-right: 20vh; }
+    margin-right: 20vh;
+    font-size: 3rem; }
   .vidwidth {
     width: 90%; }
   /*componente footer 576*/
@@ -473,4 +498,12 @@ footer {
       margin-left: 70px;
       margin-top: 20px; }
     footer div a {
-      margin-right: 20%; } }
+      margin-right: 20%; }
+  /*---Contacto-----*/
+  .contactoh1 {
+    color: white;
+    font-size: 5rem;
+    font-style: italic;
+    border: 1px;
+    text-align: center;
+    font-size: 3rem; } }

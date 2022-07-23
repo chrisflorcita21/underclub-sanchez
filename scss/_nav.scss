@@ -35,9 +35,9 @@ nav {
                 transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
                 text-decoration: none;
                 letter-spacing: 0.20em;
-                font-size: 1.6rem;
+                font-size: $font-nav;
                 &:hover{
-                    box-shadow: inset 140px 0 0 0 $colorprimario;
+                    box-shadow: inset 145px 0 0 0 $colorprimario;
                     color: $colorsecundario;
     
                     }

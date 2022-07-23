@@ -404,6 +404,7 @@ footer {
     .historiah1{
         text-align: center;
         margin-right: 20vh;
+        font-size: $font-primario;
     }
 
     /*----------- funktion-one ----- 576px*/
@@ -435,7 +436,7 @@ footer {
     .funktionh1 {
         text-align: center;
         margin-right: 100px;
-        font-size: 3rem;
+        font-size: $font-primario;
     }
 
     /*-----galeria----*/
@@ -443,6 +444,7 @@ footer {
     .galeriah1{
         text-align: center;
         margin-right: 20vh;
+        font-size: $font-primario
     }
 
     .vidwidth{
@@ -469,5 +471,12 @@ footer {
         }
     }
 
+    /*---Contacto-----*/
+
+        .contactoh1{
+            @include titulo-importante;
+            text-align: center;
+            font-size: $font-primario;
+}
 
 }

@@ -1,2 +1,17 @@
+/* colores */
 $colorprimario: white;
 $colorsecundario: black;
+$colortercero: grey;
+
+/* fuentes */
+$font-nav: 1.8rem;
+$font-primario: 3rem;
+$font-titulo: 5rem;
+
+/* maps */
+$mapRedes: (facebook: blue, instagram: violet, youtube: red);
+@each $red, $color in $mapRedes {
+    .#{$red}{
+        color:$color;
+    }
+    }
