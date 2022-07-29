@@ -21,6 +21,11 @@
     }
 
     /*componente navegacion a 992px*/
+    .linea {
+        margin-left: 18vh;
+        margin-right: 18vh;
+        margin-bottom: 30px;
+    }
 
     .logonav {
         margin-left: 15vh;
@@ -172,6 +177,11 @@
 
     .logonav {
         margin-left: 14rem;
+    }
+    .linea {
+        margin-left: none;
+        margin-right: none;
+        margin-bottom: none;
     }
 
     nav {
@@ -328,6 +338,12 @@ footer {
         
         margin-left: 11rem;
     }
+    .linea {
+        margin-left: none;
+        margin-right: none;
+        margin-bottom: none;
+    }
+
 
     nav {
         
